@@ -1,7 +1,7 @@
 # Afrilink
 UI for Afrilink Website
 
-### *Live preview*: https://afrilink-qyp2.onrender.com
+#### *Live preview* : https://afrilink-qyp2.onrender.com
 
 ### *Home*
 ![home](https://github.com/projectfinalaudio/afrilink/blob/master/previews/home.PNG)
