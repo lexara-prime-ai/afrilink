@@ -9,9 +9,10 @@
 
     <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.css">
     <link rel="stylesheet" href="./css/App.css">
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
 </head>
 
-<body>
+<body onload="TYPE()">
 
     <header>
 
@@ -38,7 +39,7 @@
                 </li>
 
                 <li class="link-item">
-                    <a href="index.html" class="link">About</a>
+                    <a href="#about" class="link">About</a>
                 </li>
             </ul>
         </nav>
@@ -67,23 +68,24 @@
         <!-- HERO SECTION -->
         <section class="hero">
             <div class="hero-img-container">
-                <img class="hero-img" src="./assets/images/hero.png" alt="image">
+                <span class="img-wrapper">
+                    <img class="hero-img" src="./assets/images/hero.png" alt="image">
+                </span>
             </div>
-    
-    
+
             <div class="hero-text">
-                <img class="hero-title" src="./assets/images/logos/padded-logo-alt-no-bg-crop.png"
-                    alt="">
-    
+                <img class="hero-title" src="./assets/images/logos/padded-logo-alt-no-bg-crop.png" alt="">
+
                 <h2 class="sub-title">
-                    Helping you make the right move
+                    <!-- GENERATED DYNAMICALLY -->
                 </h2>
-    
+
                 <p>
-                    At Afrilink, we facilitate sourcing and trading of products and services. Connecting both suppliers and
+                    At Afrilink, we facilitate sourcing and trading of products and services. Connecting both suppliers
+                    and
                     buyers.
                 </p>
-    
+
                 <a href="#" class="cta">
                     <button class="cta-hero">
                         Learn More
@@ -91,54 +93,69 @@
                 </a>
             </div>
         </section>
-    
+
         <!-- ABOUT SECTION -->
-        <section class="about">
-    
+        <section class="about" id="about">
+
             <h2 class="about-title">
                 About
             </h2>
-    
+
             <div class="about-content">
                 <div class="about-text">
                     <p class="text">
-                        From tackling personal decisions to reaching important milestones, our job is to guide you on the
-                        path of success. We're fueled by our commitment to <span>excellence</span> and go the extra mile to make sure
+                        From tackling personal decisions to reaching important milestones, our job is to guide you on
+                        the
+                        path of success. We're fueled by our commitment to <span>excellence</span> and go the extra mile
+                        to make sure
                         clients are fully satisfied.
                     </p>
-    
+
                     <p class="text">
-                        As <span>professional International Trade Experts</span>, We believe in maintaining a positive mindset, creating
-                        partnerships with a purpose, and always striving for significant outcomes. <span>Contact us today</span> for an
+                        As <span>professional International Trade Experts</span>, We believe in maintaining a positive
+                        mindset, creating
+                        partnerships with a purpose, and always striving for significant outcomes. <span>Contact us
+                            today</span> for an
                         initial consultation, and find out more about how we can tailor our services to your needs.
                     </p>
                 </div>
-    
+
                 <div class="about-img-container">
-                    <img src="./assets/images/about-us.jpg" alt="image" class="about-img">
+                    <span class="img-wrapper">
+                        <img src="./assets/images/about-us.jpg" alt="image" class="about-img">
+                    </span>
                 </div>
-                
-    
+
+
             </div>
-    
+
         </section>
-    
+
         <!-- BIO SECTION -->
-        <section class="bio">
-            <div class="bio-img-container">
-                <img src="./assets/images/manpointinglaptop.png" alt="image" class="bio-img">
-            </div>
+        <span class="bio-wrapper">
+            <section class="bio">
+                <div class="bio-img-container">
+                    <img src="./assets/images/manpointinglaptop.png" alt="image" class="bio-img">
+                </div>
 
-            <div class="bio-text">
-                <h2 class="bio-title">  
-                    Bio
-                </h2>
+                <div class="bio-text">
+                    <h2 class="bio-title">
+                        Bio
+                    </h2>
 
-                <p class="bio-text">
-                    <span>Afrilink Ihatlat ve Ihracat</span> has been providing professional consulting services to clients from East Africa and beyond. From <span>trading to sourcing solutions, our focus is always on building an efficient and results-driven relationship</span>. We work with you to create a customized plan of action for yourself or your organization. Get in touch to learn more about our vision and consulting approach.
-                </p>
-            </div>
-        </section>
+                    <p class="bio-text">
+                        <span>Afrilink Ihatlat ve Ihracat</span> has been providing professional consulting services to
+                        clients from East Africa and beyond. From <span>trading to sourcing solutions, our focus is
+                            always
+                            on building an efficient and results-driven relationship</span>. We work with you to create
+                        a
+                        customized plan of action for yourself or your organization. Get in touch to learn more about
+                        our
+                        vision and consulting approach.
+                    </p>
+                </div>
+            </section>
+        </span>
 
         <footer>
             <img src="./assets/images/logos/logo.png" alt="logo" class="footer-logo">
@@ -149,8 +166,8 @@
         </footer>
     </main>
 
-    
- 
+
+
 
     <script src="./assets/fonts/fontawesome/js/all.js"></script>
     <script src="./js/script.js"></script>
