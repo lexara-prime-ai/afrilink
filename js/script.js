@@ -18,8 +18,8 @@ window.onscroll = function () {
     if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
         header.classList.add("header-scrolled");
         header.classList.remove("header-default");
-    }
-    else {
+    } 
+    else { 
         header.classList.add("header-default");
         header.classList.remove("header-scrolled");
     }
