@@ -30,6 +30,35 @@ html {
     scroll-behavior: smooth;
 }
 
+/* CUSTOM TOOL TITLE ATTRIBUTE */
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: var(--white);
+    box-shadow: 0 .2rem .2rem 0 rgba(0, 0, 0, .1);
+    color: var(--dark-3);
+    font-size: 1rem;
+    position: absolute;
+    padding: 6px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: nowrap;
+    border: none;
+    border-radius: 3px;
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+}
+
+[data-title] {
+    position: relative;
+}
+
 body {
     background: #eee;
     color: var(--dark-1);
