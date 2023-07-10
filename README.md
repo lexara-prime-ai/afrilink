@@ -6,3 +6,6 @@ UI for Afrilink Website
 
 ### *bio*
 ![bio](https://github.com/projectfinalaudio/afrilink/blob/master/previews/bio.PNG)
+
+### *tool tip*
+![bio](https://github.com/projectfinalaudio/afrilink/blob/master/previews/tooltip.PNG)
